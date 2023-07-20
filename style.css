@@ -137,6 +137,7 @@ a {
   margin-top: 30px;
   width: 100%;
   column-gap: 50px;
+  margin-top: 200px;
 }
 
 .member_name {
@@ -162,8 +163,8 @@ a {
 
 .inner {
   width: 780px;
-  /* background-color: red; */
   position: relative;
+  /* background-color: blue; */
 }
 
 .colorBg {
@@ -183,11 +184,11 @@ a {
 
 .memberTag {
   position: absolute;
-  /* background-color: blue; */
-  /* width: 275px; */
+  /* background-color: red; */
+  width: 275px;
   bottom: 50px;
   right: 0;
-  text-align: left;
+  text-align: right;
 }
 
 .memberTag .name {
