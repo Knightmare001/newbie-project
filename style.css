@@ -132,12 +132,14 @@ a {
 
 .containerProfile {
   display: flex;
+  position: relative;
   justify-content: center;
   text-align: center;
   margin-top: 30px;
   width: 100%;
   column-gap: 50px;
   margin-top: 200px;
+  /* background-color: red; */
 }
 
 .member_name {
@@ -209,6 +211,17 @@ a {
   left: 0;
   top: 40px;
   box-shadow: 15px 15px 20px 0 #bdbcbc;
+}
+
+.lineName {
+  display: flex;
+  position: absolute;
+  right: -100px;
+  top: 40%;
+  column-gap: 20px;
+  font-size: 15px;
+  rotate: 90deg;
+  font-weight: bold;
 }
 
 button {
