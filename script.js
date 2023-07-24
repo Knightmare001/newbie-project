@@ -45,7 +45,7 @@ window.addEventListener("scroll", function () {
     });
   }
 
-  // mengembalikan semua menjadi seperti awal
+  // mengembalikan logo, hamburgerMenu dan logo social media menjadi seperti awal
   else {
     logo.src = "./img/logo.png";
     line.forEach(function (e) {

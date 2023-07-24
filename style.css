@@ -139,6 +139,7 @@ a {
   width: 100%;
   column-gap: 50px;
   margin-top: 200px;
+  z-index: 200;
   /* background-color: red; */
 }
 
@@ -223,19 +224,6 @@ a {
   rotate: 90deg;
   font-weight: bold;
 }
-
-button {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  margin-bottom: 50px;
-}
-
-/* div {
-  width: 100%;
-  text-align: center;
-  margin: 20px;
-} */
 
 .ilang {
   display: none;
