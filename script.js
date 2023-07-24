@@ -5,17 +5,41 @@ const line = document.querySelectorAll(".line");
 const logo = document.querySelector(".logo");
 const socialMedia = document.querySelectorAll(".socialMedia");
 
+function CreateProfileMember(nama, birth) {
+  this.nama = nama;
+  this.birth = birth;
+}
+
+const jihyo = new CreateProfileMember("jihyo", "1996.11.10");
+
 nama_member.forEach(function (member) {
   member.addEventListener("click", function (e) {
-    const nama = document.querySelectorAll(".inner");
-    nama.forEach(function (e) {
-      e.className += " ilang";
-      if (e.id == member.id) {
-        e.classList.toggle("ilang");
-      }
-    });
+    // const nama = document.querySelectorAll(".inner");
+    // nama.forEach(function (e) {
+    //   e.className += " ilang";
+    //   if (e.id == member.id) {
+    //     e.classList.toggle("ilang");
+    //   }
+    // });
     // member.parentElement.lastElementChild.remove();
     // console.log(e);
+
+    // cara menggunakan template literal
+    function temp(name) {
+      return `<div id="${name}" class="inner">
+    <div class="memberImg">
+      <div class="colorBg"></div>
+      <img src="img/${member.id}.jpg" alt="" />
+    </div>
+
+    <div class="memberTag">
+      <div class="name">${member.id.toUpperCase()}</div>
+      <p>Date of Birth: ${member.dataset.birth}</p>
+    </div>
+  </div>`;
+    }
+
+    document.querySelector(".member").innerHTML = temp(name);
   });
 });
 
