@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 2000px;
+  height: 10000px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -236,4 +236,17 @@ a {
 
 .z {
   color: gray;
+}
+
+.container-D {
+  margin-top: 300px;
+  background-color: red;
+  position: relative;
+}
+
+.main {
+  background-color: blue;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
 }

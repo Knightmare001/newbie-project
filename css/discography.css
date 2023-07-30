@@ -21,15 +21,14 @@
 .d-album {
   display: flex;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
   flex-wrap: wrap;
-  
 }
 
 .d-album-item {
   padding: 50px;
   width: 400px;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +47,7 @@
 
 .d-album-text-container {
   display: flex;
-  background-color: blue;
+  /* background-color: blue; */
   width: 350px;
   align-content: flex-end;
   justify-content: space-between;
@@ -59,4 +58,8 @@
 
 .d-album-text-container p {
   font-size: smaller;
+}
+
+.disco {
+  right: -128px;
 }

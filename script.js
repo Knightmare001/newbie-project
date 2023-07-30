@@ -52,10 +52,10 @@ window.addEventListener("scroll", function () {
 
   // mengubah logo social media menjadi hitam
   else if (posScrollY >= 130) {
-    socialMedia[3].src = "./img/tiktok_black.png";
-    socialMedia[2].src = "./img/youtube_black.png";
-    socialMedia[1].src = "./img/twitter_black.png";
-    socialMedia[0].src = "./img/ig_black.png";
+    socialMedia.forEach((e) => {
+      const temp = e.attributes.src.value.replace("_white.png", "_black.png");
+      e.attributes.src.value = temp;
+    });
     logo.src = "./img/logo.png";
     line.forEach(function (e) {
       e.style.backgroundColor = "white";
@@ -68,18 +68,18 @@ window.addEventListener("scroll", function () {
     line.forEach(function (e) {
       e.style.backgroundColor = "white";
     });
-    socialMedia[3].src = "./img/tiktok_white.png";
-    socialMedia[2].src = "./img/youtube_white.png";
-    socialMedia[1].src = "./img/twitter_white.png";
-    socialMedia[0].src = "./img/ig_white.png";
+    socialMedia.forEach((e) => {
+      const temp = e.attributes.src.value.replace("_black.png", "_white.png");
+      e.attributes.src.value = temp;
+    });
   }
 });
 
 if (document.documentElement.scrollTop > 130) {
-  socialMedia[3].src = "./img/tiktok_black.png";
-  socialMedia[2].src = "./img/youtube_black.png";
-  socialMedia[1].src = "./img/twitter_black.png";
-  socialMedia[0].src = "./img/ig_black.png";
+  socialMedia.forEach((e) => {
+    const temp = e.attributes.src.value.replace("_white.png", "_black.png");
+    e.attributes.src.value = temp;
+  });
 }
 
 // window.addEventListener("scroll", function () {
