@@ -5,13 +5,6 @@ const line = document.querySelectorAll(".line");
 const logo = document.querySelector(".logo");
 const socialMedia = document.querySelectorAll(".socialMedia");
 
-function CreateProfileMember(nama, birth) {
-  this.nama = nama;
-  this.birth = birth;
-}
-
-const jihyo = new CreateProfileMember("jihyo", "1996.11.10");
-
 nama_member.forEach(function (member) {
   member.addEventListener("click", function (e) {
     // const nama = document.querySelectorAll(".inner");
@@ -43,7 +36,7 @@ nama_member.forEach(function (member) {
   });
 });
 
-let posScrollY = document.documentElement.scrollTop;
+const posScrollYFirst = document.documentElement.scrollTop;
 
 window.addEventListener("scroll", function () {
   // mendapatkan posisi scroll Y
@@ -81,7 +74,8 @@ window.addEventListener("scroll", function () {
     socialMedia[0].src = "./img/ig_white.png";
   }
 });
-if (posScrollY >= 130) {
+
+if (document.documentElement.scrollTop > 130) {
   socialMedia[3].src = "./img/tiktok_black.png";
   socialMedia[2].src = "./img/youtube_black.png";
   socialMedia[1].src = "./img/twitter_black.png";

@@ -139,7 +139,6 @@ a {
   width: 100%;
   column-gap: 50px;
   margin-top: 200px;
-  z-index: 200;
   /* background-color: red; */
 }
 
@@ -152,6 +151,7 @@ a {
   width: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  z-index: 200;
 }
 
 .member_name p {
@@ -205,6 +205,10 @@ a {
   font-size: 12pt;
 }
 
+.member {
+  z-index: 200;
+}
+
 .member img {
   width: 445px;
   height: 580px;
@@ -218,11 +222,12 @@ a {
   display: flex;
   position: absolute;
   right: -100px;
-  top: 40%;
+  top: 50%;
   column-gap: 20px;
   font-size: 15px;
   rotate: 90deg;
   font-weight: bold;
+  z-index: 200;
 }
 
 .ilang {
