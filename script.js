@@ -18,8 +18,7 @@ nama_member.forEach(function (member) {
     // console.log(e);
 
     // cara menggunakan template literal
-    function temp(name) {
-      return `<div id="${name}" class="inner">
+    const temp = `<div id="${member.id}" class="inner">
     <div class="memberImg">
       <div class="colorBg"></div>
       <img src="img/${member.id}.jpg" alt="" />
@@ -30,9 +29,8 @@ nama_member.forEach(function (member) {
       <p>Date of Birth: ${member.dataset.birth}</p>
     </div>
   </div>`;
-    }
 
-    document.querySelector(".member").innerHTML = temp(name);
+    document.querySelector(".member").innerHTML = temp;
   });
 });
 
