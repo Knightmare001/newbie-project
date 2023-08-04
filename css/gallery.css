@@ -3,10 +3,13 @@
 .g-container {
   margin-top: 20%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   /* padding: 50px; */
-  background-color: blue;
-  justify-content: center;
+  /* background-color: blue; */
 }
 
 .g-title {
@@ -20,17 +23,33 @@
 
 .g-album {
   display: flex;
-  justify-content: center;
-  background-color: red;
+  /* background-color: red; */
   flex-wrap: wrap;
   width: 1200px;
-  margin-left: 120px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.flex-jc-c {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-jc-e {
+  display: flex;
+  justify-content: end;
+}
+
+.g-album2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: flex-start;
 }
 
 .g-album-item {
   padding: 4px;
-  background-color: green;
-  
+  /* background-color: green; */
 }
 
 .g-album-item .L {
