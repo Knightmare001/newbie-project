@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,700&display=swap");
+
+.g-container {
+  margin-top: 20%;
+  position: relative;
+  width: 100%;
+  /* padding: 50px; */
+  background-color: blue;
+  justify-content: center;
+}
+
+.g-title {
+  font-size: 53px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+
+.g-album {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin-left: 120px;
+}
+
+.g-album-item {
+  padding: 4px;
+  background-color: green;
+  
+}
+
+.g-album-item .L {
+  /* width: 700px; */
+  height: 200px;
+}
+
+.g-album-item .P {
+  /* width: 1000px; */
+  height: 200px;
+}
