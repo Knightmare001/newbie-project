@@ -80,6 +80,18 @@ if (document.documentElement.scrollTop > 130) {
   });
 }
 
+function tambah() {
+  let count = 0;
+  function inner() {
+    return ++count;
+  }
+
+  //   console.dir(inner);
+  return inner;
+}
+
+let a = tambah();
+
 // window.addEventListener("scroll", function () {
 //   let posScrollY = document.documentElement.scrollTop;
 //   if (posScrollY >= 80) {
