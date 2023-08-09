@@ -26,7 +26,18 @@
   justify-content: center;
   /* background-color: red; */
   flex-wrap: wrap;
-  width: 1400px;
+  width: 85%;
+  position: relative;
+}
+
+.top-img{
+  position: absolute;
+  opacity: 0%;
+}
+
+.top-img:hover{
+  opacity: 1;
+  background-color: black;
 }
 
 .d-album-item {
@@ -47,6 +58,7 @@
 
 .d-album-item img:hover {
   opacity: 50%;
+  color: black;
 }
 
 .d-album-text-container {

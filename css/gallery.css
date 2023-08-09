@@ -30,16 +30,6 @@
   justify-content: space-between;
 }
 
-.flex-jc-c {
-  display: flex;
-  justify-content: center;
-}
-
-.flex-jc-e {
-  display: flex;
-  justify-content: end;
-}
-
 .g-album2 {
   display: flex;
   flex-wrap: wrap;
