@@ -1,0 +1,62 @@
+.containerSchedule {
+  margin-top: 500px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selectBox {
+  position: relative;
+  /* background-color: blue; */
+  width: 100px;
+  display: flex;
+}
+
+.selectBox span {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  width: 0;
+  height: 0;
+  margin-top: -1px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333;
+}
+
+.selectBox select {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  border: none;
+  box-shadow: none;
+  -webkit-appearance: none; /* Menghilangkan tampilan default di browser WebKit seperti Chrome */
+  -moz-appearance: none; /* Menghilangkan tampilan default di browser Firefox */
+  appearance: none; /* Menghilangkan tampilan default di browser modern */
+}
+
+.month {
+  display: flex;
+  column-gap: 10px;
+  cursor: pointer;
+  color: gray;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.week {
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bl {
+  color: black;
+  border-bottom: 2px solid black;
+  border-radius: 1px;
+}
