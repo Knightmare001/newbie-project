@@ -30,14 +30,15 @@
   position: relative;
 }
 
-.top-img{
+.top-img {
   position: absolute;
   opacity: 0%;
 }
 
-.top-img:hover{
+.top-img:hover {
   opacity: 1;
   background-color: black;
+  width: 50px;
 }
 
 .d-album-item {
