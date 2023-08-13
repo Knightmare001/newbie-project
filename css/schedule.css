@@ -1,8 +1,21 @@
 .containerSchedule {
+  position: relative;
   margin-top: 500px;
   /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
+}
+
+.schedule h1 {
+  width: 400px;
+  border-bottom: 2px solid black;
+  font-size: 30pt;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.calender {
+  min-height: 652px;
 }
 
 .selectBox {
@@ -53,10 +66,21 @@
   margin-top: 20px;
   font-size: 16px;
   font-weight: bold;
+  /* background-color: red; */
 }
 
 .bl {
   color: black;
   border-bottom: 2px solid black;
   border-radius: 1px;
+}
+
+td {
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.sun {
+  color: red;
 }
