@@ -26,20 +26,38 @@
   justify-content: center;
   /* background-color: red; */
   flex-wrap: wrap;
-  width: 85%;
+  width: 85%; 
+}
+
+.d-album-image{
   position: relative;
 }
 
 .top-img {
   position: absolute;
-  opacity: 0%;
+  /* background-color: red; */
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  /* opacity: 0.5%; */
 }
 
-.top-img:hover {
-  opacity: 1;
-  background-color: black;
-  width: 50px;
+.d-album-item .top-img img{
+  width: 80px; 
+  margin-left: 40%; 
+  margin-top: 40%;
 }
+
+
+.top-img:hover{
+  display: inline;
+  background-color: black;
+  /* position: absolute; */
+  opacity: 0.6;
+  }
 
 .d-album-item {
   padding: 50px;
@@ -57,10 +75,10 @@
   z-index: 200;
 }
 
-.d-album-item img:hover {
+/* .d-album-item img:hover {
   opacity: 50%;
   color: black;
-}
+} */
 
 .d-album-text-container {
   display: flex;

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,700&display=swap");
+
+.n-container {
+  margin-top: 20%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.n-title {
+  font-size: 53px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+
+
+
+.n-container-list {
+  position: relative;
+  width: 1080px;
+  clear: both;
+  /* background-color: red; */
+  align-items: center;
+  margin-top: 50px;
+}
+
+.n-container ul li p {
+  float: left;
+  font-weight: 600;
+}
+
+.n-container-list ul {
+  border-top: 2px solid black;
+  /* background-color: aqua; */
+  margin-top: 20px;
+}
+
+.n-container-list ul li{
+  overflow: hidden;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.n-container-list li {
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+
+.n-container-list .cate {
+  font-size: 11pt;
+  text-align: center;
+  /* line-height: 30px; */
+  margin-right: 20px;
+  
+  /* background-color: green; */
+}
+
+.n-container-list .nc_in {
+  display: inline;
+  width: 90%;
+  /* background-color: blue; */
+  
+}
+
+.n-container-list .tit{
+  display: block;
+  font-size: 11pt;
+  /* line-height: 10px; */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.n-container-list .date{
+  display: block;
+  font-size: 10pt;
+}
