@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/discography.css" />
     <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/schedule.css" />
     <link rel="stylesheet" href="css/notice.css" />
   </head>
   <body>
@@ -301,21 +302,30 @@
           ></iframe>
         </div>
         <div class="v-album-pict">
-          <div class="v-pict-item">
+          <div
+            class="v-pict-item"
+            data-src="https://www.youtube.com/embed/w4cTYnOPdNk"
+          >
             <img src="./img/video/set.jpg" alt="" />
             <div class="v-pict-text">
               <b>SET ME FREE</b>
               <p>2023-03-10</p>
             </div>
           </div>
-          <div class="v-pict-item">
+          <div
+            class="v-pict-item"
+            data-src="https://www.youtube.com/embed/cKlEE_EYuNM"
+          >
             <img src="./img/video/moonlight.jpg" alt="" />
             <div class="v-pict-text">
               <b>MOONLIGHT SUNRISE</b>
               <p>2023-01-20</p>
             </div>
           </div>
-          <div class="v-pict-item">
+          <div
+            class="v-pict-item"
+            data-src="https://www.youtube.com/embed/k6jqx9kZgPM"
+          >
             <img src="./img/video/talk that talk.png" alt="" />
             <div class="v-pict-text">
               <b>Talk that Talk</b>
@@ -448,7 +458,109 @@
     </div>
 
     <!-- schedule -->
+    <div class="containerSchedule">
+      <div class="schedule">
+        <h1>SCHEDULE</h1>
+        <div class="event"></div>
+      </div>
+      <div class="calender">
+        <div class="selectBox">
+          <select name="years" id="years">
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+          </select>
+
+          <span></span>
+        </div>
+
+        <div class="month">
+          <p class="bl">JAN</p>
+          <p>FEB</p>
+          <p>MAR</p>
+          <p>APR</p>
+          <p>MAY</p>
+          <p>JUN</p>
+          <p>JUL</p>
+          <p>AUG</p>
+          <p>SEP</p>
+          <p>OCT</p>
+          <p>NOV</p>
+          <p>DES</p>
+        </div>
+
+        <table style="width: 100%; margin-top: 20px">
+          <tr>
+            <th>SUN</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+          </tr>
+          <tr>
+            <td class="sun">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td class="sun">8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td class="sun">15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td class="sun">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td class="sun">28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="lineName" style="right: -120px">
+        <p>06</p>
+        <span
+          style="
+            width: 150px;
+            height: 2px;
+            background-color: black;
+            margin: auto;
+          "
+        ></span>
+        <p>SCHEDULE</p>
+      </div>
+    </div>
 
     <script src="script.js"></script>
+    <script src="./js/video.js"></script>
+    <script src="./js/schedule.js"></script>
   </body>
 </html>
