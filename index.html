@@ -13,14 +13,18 @@
     <link rel="stylesheet" href="css/notice.css" />
   </head>
   <body>
+    <ul class="nav-ul">
+      <li>
+        <a href="#profile" style="color: black">PROFILE</a>
+      </li>
+      <li><a href="#discography" style="color: black">DISCOGRAPHY</a></li>
+    </ul>
     <div class="containerHeader" style="background-image: url(./img/BG2.jpg)">
-      <div class="navbar">
-        <img class="logo" src="./img/logo.png" alt="logo" />
-        <div class="hamburgerMenu">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </div>
+      <img class="logo" src="./img/logo.png" alt="logo" />
+      <div class="hamburgerMenu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
       </div>
 
       <div class="containerTextHeader fade-in-right">
@@ -70,7 +74,7 @@
       </ul>
     </div>
 
-    <div class="containerProfile">
+    <div id="profile" class="containerProfile">
       <div class="d-title">
         <p>PROFILE</p>
       </div>
@@ -117,7 +121,7 @@
     </div>
 
     <!-- Discography -->
-    <div class="d-container">
+    <div id="discography" class="d-container">
       <div class="d-title">DISCOGRAPHY</div>
       <div class="d-album">
         <div class="d-album-item">
@@ -568,5 +572,6 @@
     <script src="script.js"></script>
     <script src="./js/video.js"></script>
     <script src="./js/schedule.js"></script>
+    <script src="./js/hamburger_menu.js"></script>
   </body>
 </html>

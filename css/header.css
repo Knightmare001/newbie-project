@@ -17,55 +17,114 @@ a {
   color: white;
 }
 
+.black {
+  background-color: black !important;
+}
+
 .containerHeader {
   /* background-image: url(/img/BG2.jpg); */
   width: 100%;
   height: 100vh;
 }
 
-.navbar {
-  width: 100%;
-  display: flex;
-  position: fixed;
-  height: 150px;
-  align-items: center;
-  padding: 50px;
-  justify-content: space-between;
-  z-index: 100;
-}
+/* .logo {
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+} */
 
 .logo {
   width: 90px;
   height: 40px;
   cursor: pointer;
+  position: fixed;
+  left: 0;
+  margin-left: 3rem;
+  /* margin-left: 50px; */
+  margin-top: 2rem;
+  z-index: 1000;
 }
 
+/* hamburger menu */
 .hamburgerMenu {
   display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  z-index: 1002;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
-  width: 40px;
-  height: 40px;
+  height: 20px;
   border: none;
   cursor: pointer;
+  /* background-color: red; */
+}
+
+.nav-ul {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  transform: translateX(100%);
+  top: 0;
+  right: 0;
+  transition: all 0.7s;
+  z-index: 1001;
+  list-style: none;
+}
+
+.slide {
+  transform: translateX(0);
+}
+
+/* hamburger menu animation */
+.span1 {
+  /* transform-origin: 0 0; */
+  transform: rotate(45deg) translate(-2px, -2px);
+}
+.span2 {
+  opacity: 0;
+  transform: scale(0);
+}
+.span3 {
+  transform: rotate(-45deg) translate(-1px, 0px);
 }
 
 .line {
   width: 30px;
-  height: 2px;
+  height: 3px;
+  border-radius: 3px;
   background-color: white;
-  margin-bottom: 4px;
+  transition: all 0.3s ease-in-out;
+  /* transform-origin: 0 0; */
 }
 
-.line:last-child {
-  width: 20px;
+.hamburgerMenu span:nth-child(1) {
+  transform-origin: 0 0;
 }
+.hamburgerMenu span:nth-child(3) {
+  transform-origin: 0 100%;
+}
+
+.nav-ul li:hover {
+  letter-spacing: 0.1em;
+}
+/* selesai di sini */
 
 .containerTextHeader {
   position: absolute;
   right: 0;
-  margin-right: 70px;
+  margin-right: 100px;
   margin-top: 250px;
   color: white;
   display: flex;
@@ -116,7 +175,7 @@ a {
   bottom: 0;
   margin-left: 50px;
   margin-bottom: 30px;
-  z-index: 100;
+  z-index: 300;
 }
 
 .navSocialMedia li {
@@ -129,4 +188,14 @@ a {
 .socialMedia {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 450px) {
+  .lineName {
+    display: none !important;
+  }
+
+  .containerProfile-c {
+    background-color: red;
+  }
 }

@@ -1,9 +1,10 @@
 const nama_member = document.querySelectorAll(".member_name p");
 const imgMember = document.querySelectorAll(".member div");
 const hamburgerMenu = document.querySelector(".hamburgerMenu");
-const line = document.querySelectorAll(".line");
 const logo = document.querySelector(".logo");
 const socialMedia = document.querySelectorAll(".socialMedia");
+const line = document.querySelectorAll(".line");
+const navUl = document.querySelectorAll(".nav-ul li");
 
 nama_member.forEach(function (member) {
   member.addEventListener("click", function (e) {
@@ -79,18 +80,6 @@ if (document.documentElement.scrollTop > 130) {
     e.attributes.src.value = temp;
   });
 }
-
-function tambah() {
-  let count = 0;
-  function inner() {
-    return ++count;
-  }
-
-  //   console.dir(inner);
-  return inner;
-}
-
-let a = tambah();
 
 // window.addEventListener("scroll", function () {
 //   let posScrollY = document.documentElement.scrollTop;
