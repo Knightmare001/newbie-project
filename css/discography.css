@@ -26,10 +26,10 @@
   justify-content: center;
   /* background-color: red; */
   flex-wrap: wrap;
-  width: 85%; 
+  width: 85%;
 }
 
-.d-album-image{
+.d-album-image {
   position: relative;
 }
 
@@ -45,19 +45,18 @@
   /* opacity: 0.5%; */
 }
 
-.d-album-item .top-img img{
-  width: 80px; 
-  margin-left: 40%; 
+.d-album-item .top-img img {
+  width: 80px;
+  margin-left: 40%;
   margin-top: 40%;
 }
 
-
-.top-img:hover{
+.top-img:hover {
   display: inline;
   background-color: black;
   /* position: absolute; */
   opacity: 0.6;
-  }
+}
 
 .d-album-item {
   padding: 50px;
@@ -97,4 +96,18 @@
 
 .disco {
   right: -128px;
+}
+
+@media (max-width: 450px) {
+  .d-title {
+    font-size: 25pt;
+  }
+
+  .d-container {
+    margin-top: 70%;
+  }
+
+  .d-album-item {
+    padding: 20px;
+  }
 }

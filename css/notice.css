@@ -18,11 +18,9 @@
   line-height: normal;
 }
 
-
-
 .n-container-list {
   position: relative;
-  width: 1080px;
+  max-width: 1080px;
   clear: both;
   /* background-color: red; */
   align-items: center;
@@ -40,7 +38,7 @@
   margin-top: 20px;
 }
 
-.n-container-list ul li{
+.n-container-list ul li {
   overflow: hidden;
   cursor: pointer;
   padding: 20px;
@@ -56,7 +54,7 @@
   text-align: center;
   /* line-height: 30px; */
   margin-right: 20px;
-  
+
   /* background-color: green; */
 }
 
@@ -64,10 +62,9 @@
   display: inline;
   width: 90%;
   /* background-color: blue; */
-  
 }
 
-.n-container-list .tit{
+.n-container-list .tit {
   display: block;
   font-size: 11pt;
   /* line-height: 10px; */
@@ -75,7 +72,7 @@
   margin-bottom: 20px;
 }
 
-.n-container-list .date{
+.n-container-list .date {
   display: block;
   font-size: 10pt;
 }

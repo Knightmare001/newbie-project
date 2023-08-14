@@ -27,7 +27,7 @@
   /* width: 1200px; */
   margin: auto;
   height: 500px;
-  width: 900px;
+  max-width: 900px;
   /* background-color: blue; */
 }
 
@@ -48,7 +48,7 @@
 
 .v-pict-item img {
   height: 200px;
-  width: 400px;
+  max-width: 400px;
   z-index: 200;
 }
 
@@ -59,4 +59,10 @@
   flex-wrap: nowrap;
   margin-top: 10px;
   font-size: small;
+}
+
+@media (max-width: 450px) {
+  .v-album-pict {
+    column-gap: 0;
+  }
 }

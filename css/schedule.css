@@ -1,15 +1,13 @@
 .containerSchedule {
   position: relative;
-  margin-top: 500px;
+  margin-top: 300px;
   /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
 }
 
-.schedule h1 {
-  width: 400px;
+.schedule p {
   border-bottom: 2px solid black;
-  font-size: 30pt;
   padding-bottom: 30px;
   letter-spacing: 3px;
 }
@@ -83,4 +81,15 @@ td {
 
 .sun {
   color: red;
+}
+
+@media (max-width: 450px) {
+  .containerSchedule {
+    display: block;
+  }
+
+  .month {
+    font-size: 6pt;
+    column-gap: 10px;
+  }
 }

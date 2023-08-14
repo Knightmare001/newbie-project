@@ -23,7 +23,6 @@ a {
 
 .containerHeader {
   /* background-image: url(/img/BG2.jpg); */
-  width: 100%;
   height: 100vh;
 }
 
@@ -60,6 +59,7 @@ a {
   height: 20px;
   border: none;
   cursor: pointer;
+  -webkit-backface-visibility: hidden;
   /* background-color: red; */
 }
 
@@ -191,11 +191,19 @@ a {
 }
 
 @media (max-width: 450px) {
+  .logo {
+    position: fixed;
+  }
+
   .lineName {
     display: none !important;
   }
 
-  .containerProfile-c {
-    background-color: red;
+  .containerTextHeader {
+    margin-right: 5%;
+  }
+
+  .mainAlbum {
+    font-size: 30pt;
   }
 }

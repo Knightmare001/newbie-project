@@ -120,3 +120,47 @@
   height: 500px;
   margin: auto;
 } */
+
+@media (max-width: 450px) {
+  .containerProfile {
+    margin-top: 30%;
+  }
+
+  .member_name {
+    width: inherit;
+    align-items: center;
+  }
+
+  .containerProfile-c {
+    width: 100%;
+    display: block;
+  }
+
+  .inner {
+    position: inherit;
+    margin-top: 30px;
+  }
+
+  .colorBg {
+    width: 265px;
+    height: 337px;
+    margin-left: 20px;
+  }
+
+  .member img {
+    width: 265px;
+    height: 337px;
+    margin-left: 60px;
+  }
+
+  .memberImg {
+    width: 265px;
+    height: 337px;
+  }
+
+  .memberTag {
+    right: inherit;
+    bottom: inherit;
+    margin-top: 50px;
+  }
+}

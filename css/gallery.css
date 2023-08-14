@@ -25,7 +25,7 @@
   display: flex;
   /* background-color: red; */
   flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
   margin-top: 50px;
   justify-content: space-between;
 }
@@ -33,7 +33,7 @@
 .g-album2 {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
   justify-content: flex-start;
 }
 
@@ -50,4 +50,8 @@
 .g-album-item .P {
   /* width: 1000px; */
   height: 200px;
+}
+
+.g-album-mobile {
+  display: none;
 }
