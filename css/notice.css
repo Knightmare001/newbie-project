@@ -9,15 +9,6 @@
   align-items: center;
 }
 
-.n-title {
-  font-size: 53px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: 3px;
-  line-height: normal;
-}
-
 .n-container-list {
   position: relative;
   max-width: 1080px;
@@ -75,4 +66,10 @@
 .n-container-list .date {
   display: block;
   font-size: 10pt;
+}
+
+@media (max-width: 450px) {
+  .n-container {
+    margin-top: 300px;
+  }
 }

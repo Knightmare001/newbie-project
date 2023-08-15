@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,700&display=swap");
 
-.v-title {
-  font-size: 53px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: 3px;
-  line-height: normal;
-}
-
 .v-container {
   margin-top: 20%;
   position: relative;
@@ -64,5 +55,18 @@
 @media (max-width: 450px) {
   .v-album-pict {
     column-gap: 0;
+  }
+
+  .v-album-vid {
+    max-width: 355px;
+    height: 230px;
+  }
+
+  .v-pict-item:last-child img {
+    max-width: 266.667px;
+  }
+
+  .v-container {
+    margin-top: 300px;
   }
 }

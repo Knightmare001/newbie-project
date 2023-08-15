@@ -12,15 +12,6 @@
   /* background-color: blue; */
 }
 
-.g-title {
-  font-size: 53px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: 3px;
-  line-height: normal;
-}
-
 .g-album {
   display: flex;
   /* background-color: red; */
@@ -54,4 +45,10 @@
 
 .g-album-mobile {
   display: none;
+}
+
+@media (max-width: 450px) {
+  .g-container {
+    margin-top: 300px;
+  }
 }

@@ -91,5 +91,10 @@ td {
   .month {
     font-size: 6pt;
     column-gap: 10px;
+    margin-left: 30px;
+  }
+
+  .selectBox {
+    margin-left: 20px;
   }
 }

@@ -11,7 +11,7 @@
   /* background-color: red; */
 }
 
-.d-title {
+.title {
   font-size: 53px;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
@@ -99,12 +99,12 @@
 }
 
 @media (max-width: 450px) {
-  .d-title {
+  .title {
     font-size: 25pt;
   }
 
   .d-container {
-    margin-top: 70%;
+    margin-top: 300px;
   }
 
   .d-album-item {
