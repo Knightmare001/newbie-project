@@ -36,7 +36,7 @@
 .top-img {
   position: absolute;
   /* background-color: red; */
-  z-index: 1000;
+  z-index: 900;
   left: 0;
   top: 0;
   width: 100%;
