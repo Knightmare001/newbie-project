@@ -40,7 +40,7 @@
   height: 20px;
   border: none;
   cursor: pointer;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   /* background-color: red; */
 }
 
