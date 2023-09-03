@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Twice Copy</title>
+
+    <!-- Bootsrtap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- local css -->
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/profile.css" />
     <link rel="stylesheet" href="css/discography.css" />
@@ -12,7 +27,7 @@
     <link rel="stylesheet" href="css/schedule.css" />
     <link rel="stylesheet" href="css/notice.css" />
   </head>
-  <body>
+  <body class="light_mode">
     <ul class="nav-ul">
       <li>
         <a href="#profile" style="color: black">PROFILE</a>
@@ -25,6 +40,8 @@
     </ul>
     <div class="containerHeader" style="background-image: url(./img/BG2.jpg)">
       <img class="logo" src="./img/logo.png" alt="logo" />
+      <i id="moon" class="bi bi-moon-stars-fill"></i>
+
       <div class="hamburgerMenu">
         <span class="line"></span>
         <span class="line"></span>
@@ -111,14 +128,7 @@
 
         <div class="lineName">
           <p>01</p>
-          <span
-            style="
-              width: 150px;
-              height: 2px;
-              background-color: black;
-              margin: auto;
-            "
-          ></span>
+          <span style="width: 150px; height: 2px; margin: auto"></span>
           <p>PROFILE</p>
         </div>
       </div>
@@ -204,14 +214,7 @@
 
       <div class="lineName disco">
         <p>02</p>
-        <span
-          style="
-            width: 150px;
-            height: 2px;
-            background-color: black;
-            margin: auto;
-          "
-        ></span>
+        <span style="width: 150px; height: 2px; margin: auto"></span>
         <p>DISCOGRAPHY</p>
       </div>
     </div>
@@ -301,14 +304,7 @@
       </div>
       <div class="lineName">
         <p>03</p>
-        <span
-          style="
-            width: 150px;
-            height: 2px;
-            background-color: black;
-            margin: auto;
-          "
-        ></span>
+        <span style="width: 150px; height: 2px; margin: auto"></span>
         <p>GALLERY</p>
       </div>
     </div>
@@ -363,14 +359,7 @@
       </div>
       <div class="lineName">
         <p>04</p>
-        <span
-          style="
-            width: 150px;
-            height: 2px;
-            background-color: black;
-            margin: auto;
-          "
-        ></span>
+        <span style="width: 150px; height: 2px; margin: auto"></span>
         <p>VIDEO</p>
       </div>
     </div>
@@ -472,14 +461,7 @@
       </div>
       <div class="lineName">
         <p>05</p>
-        <span
-          style="
-            width: 150px;
-            height: 2px;
-            background-color: black;
-            margin: auto;
-          "
-        ></span>
+        <span style="width: 150px; height: 2px; margin: auto"></span>
         <p>NOTICE</p>
       </div>
     </div>
@@ -574,14 +556,7 @@
 
       <div class="lineName" style="right: -120px">
         <p>06</p>
-        <span
-          style="
-            width: 150px;
-            height: 2px;
-            background-color: black;
-            margin: auto;
-          "
-        ></span>
+        <span style="width: 150px; height: 2px; margin: auto"></span>
         <p>SCHEDULE</p>
       </div>
     </div>
@@ -590,5 +565,11 @@
     <script src="./js/video.js"></script>
     <script src="./js/schedule.js"></script>
     <script src="./js/hamburger_menu.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

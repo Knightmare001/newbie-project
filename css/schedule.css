@@ -67,9 +67,19 @@
   /* background-color: red; */
 }
 
+.dark_mode {
+  --backgrounColor: #000000;
+  --color-text: #ffffff;
+}
+
+.light_mode {
+  --backgrounColor: #ffffff;
+  --color-text: #212529;
+}
+
 .bl {
-  color: black;
-  border-bottom: 2px solid black;
+  color: var(--color-text);
+  border-bottom: 2px solid var(--color-text);
   border-radius: 1px;
 }
 

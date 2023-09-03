@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark_mode {
+  --backgrounColor: #000000;
+  --color-text: #ffffff;
+}
+
+.light_mode {
+  --backgrounColor: #ffffff;
+  --color-text: #212529;
+}
+
+div {
+  color: var(--color-text);
+}
+
+option,
+select {
+  color: var(--color-text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--backgrounColor);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 8rem;
+  margin-top: 2rem;
+  z-index: 1000;
+  color: white;
+  cursor: pointer;
+}
+
+.lineName p {
+  margin: auto;
+}
+
+.lineName span {
+  background-color: var(--color-text);
+}
