@@ -187,4 +187,9 @@
   .mainAlbum {
     font-size: 30pt;
   }
+
+  .navSocialMedia {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
 }
