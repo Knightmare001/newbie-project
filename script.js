@@ -22,7 +22,7 @@ nama_member.forEach(function (member) {
     const temp = `<div id="${member.id}" class="inner">
     <div class="memberImg">
       <div class="colorBg"></div>
-      <img src="img/${member.id}.jpg" alt="" />
+      <img src="img/${member.id}.webp" alt="" />
     </div>
 
     <div class="memberTag">
@@ -53,7 +53,7 @@ if (theme === "dark") {
 if (theme === "dark") {
   console.log("work");
   socialMedia.forEach((e) => {
-    const temp = e.attributes.src.value.replace("_black.png", "_white.png");
+    const temp = e.attributes.src.value.replace("_black.webp", "_white.webp");
     e.attributes.src.value = temp;
   });
 } else if (
@@ -61,7 +61,7 @@ if (theme === "dark") {
   document.documentElement.scrollTop > 130
 ) {
   socialMedia.forEach((e) => {
-    const temp = e.attributes.src.value.replace("_white.png", "_black.png");
+    const temp = e.attributes.src.value.replace("_white.webp", "_black.webp");
     e.attributes.src.value = temp;
   });
 }
@@ -106,7 +106,7 @@ changeColorOnScroll();
 
 */
 function changeNavUpColorToBlack() {
-  logo.src = "./img/logo_black.png";
+  logo.src = "./img/logo_black.webp";
   icon.style.color = "black";
   line.forEach(function (e) {
     e.style.backgroundColor = "black";
@@ -115,20 +115,20 @@ function changeNavUpColorToBlack() {
 
 function changeNavDownColorToWhite() {
   socialMedia.forEach((e) => {
-    const temp = e.attributes.src.value.replace("_black.png", "_white.png");
+    const temp = e.attributes.src.value.replace("_black.webp", "_white.webp");
     e.attributes.src.value = temp;
   });
 }
 
 function changeNavDownColorToBlack() {
   socialMedia.forEach((e) => {
-    const temp = e.attributes.src.value.replace("_white.png", "_black.png");
+    const temp = e.attributes.src.value.replace("_white.webp", "_black.webp");
     e.attributes.src.value = temp;
   });
 }
 
 function changeNavUpColorToWhite() {
-  logo.src = "./img/logo.png";
+  logo.src = "./img/logo.webp";
   line.forEach(function (e) {
     e.style.backgroundColor = "white";
   });
